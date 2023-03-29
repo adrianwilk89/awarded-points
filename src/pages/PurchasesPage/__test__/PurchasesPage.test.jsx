@@ -23,7 +23,7 @@ describe('PurchasesPage', () => {
         mockStore = configureStore([thunk])
     })
 
-    test('should dispatch fetch/users when component is mounted', () => {
+    test('should dispatch users/fetch when component is mounted', () => {
         const store = mockStore({
             users: { users: [] },
             purchases: { purchases: [] }
@@ -41,7 +41,7 @@ describe('PurchasesPage', () => {
     })
 
 
-    test('should dispatch fetch/purchases action when user was selected', () => {
+    test('should dispatch purchases/fetch action when user was selected', () => {
         const store = mockStore({
             users: { users: [{ id: 1, name: 'Joe' }] }, purchases: {
                 purchases: []
