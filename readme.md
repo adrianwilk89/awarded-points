@@ -30,7 +30,7 @@ to start webpack dev server. Application will be running on ```http://localhost`
 
 
 ## Testing
-To run client app tests go to ```root``` folder and run following command
+To run tests go to ```root``` folder and run following command
 ```bash
 npm run test
 ```
