@@ -1,3 +1,4 @@
+# ```Application was created for purposes of the recruitment process.```
 
 ## Software requirements 
 To run this project localy you have to install
